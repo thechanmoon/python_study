@@ -21,5 +21,9 @@ dates = ["sun", "mon", "tue","wed","fri","sat"]
 # for num, color in enumerate(colors, start = 1):
 #     print("Colors {}: {}".format(num,color))    
 
+
+for num, color in enumerate(colors):
+    print("Colors {}: {}".format(num,color))    
+
 for color,date in zip(colors,dates):
     print("{}: {}".format(color, ",".join(date)))     
