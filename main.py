@@ -27,3 +27,7 @@ for num, color in enumerate(colors):
 
 for color,date in zip(colors,dates):
     print("{}: {}".format(color, ",".join(date)))     
+
+import requests
+indeed_result = requests.get("https://www.indeed.com/q-python-jobs.html?vjk=05e890ee7c4d20c7");
+print(indeed_result);
